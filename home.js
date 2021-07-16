@@ -20,9 +20,7 @@ function calculaDor() {
       algo = `${nome}, seu IMC é de ${total}, sua frase motivacional é: "Se não mudar urgente, não dou 3 meses." <img src="imc-1/5.png" alt="imagem" />`;
     }
     resultado.innerHTML = algo;
-  } else {
-    console.log("qualquer merda!!!");
-  }
+  } 
 }
 
 addEventListener("click", calculaDor);
